@@ -1,3 +1,3 @@
 function enviado(){
-        alert('Sua menssagem foi enviada com sucesso.');
+        alert('Sua menssagem foi enviada com sucesso !');
 }

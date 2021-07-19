@@ -1,30 +1,65 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Academia Itaú</title>
-</head>
-<body>
-  <nav>
-  </nav>
-  <section class="section-project">
-    <div>
-      <h3>Entre em contato.</h3>
-      <div>
-        <form id="formulario">
-          <input type="text" placeholder="nome" id="nome" required><br />
-          <input type="text" placeholder="email" id="email"><br />
-          <input type="tel" placeholder="telefone" id="tel" required><br />
-          <textarea placeholder="Digite aqui sua mensagem..." name="message" id="message" cols="30" rows="10"></textarea><br /> 
-          <input type="submit" accesskey="E" value="Enviar" onclick="enviado()">
-          <input type="reset" accesskey="P" value="Apagar formulário" />
-                  </form>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <p> 2021 | Banco Itaú </p>
-  </footer>
-</body>
-<script src="contato.js"></script>
+<html>
+	<head>
+		<title>Notícias COVID-19</title>
+		<meta charset="utf-8">
+
+		<!-- Estilo customizado -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" href="formulario.css">
+		<link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+	</head>
+
+	<body id="uma-coluna" class="fotos">
+
+		<!-- Início container -->
+		<div id="container">
+
+			<!-- Início conteudo -->
+			<div id="conteudo">
+				<!--LAYOUT-->
+			<div class=" logos">
+				<div class="logocovid"><img src="imagens/logo.png" alt="" width="400px"></div>
+				<div class="logobrasil"><img src="imagens/detalhe-topo.png" alt="" width="150px"></div>
+			</div>
+			<!--LAYOUT-->
+
+			<!-- Início navegacao -->						
+			<nav id="navegacao">
+				<div><a id="home" href="index.html">Home</a></div>
+				<div><a id="sobre" href="sobre.html">Sobre</a></div>
+				<div><a id="contato" href="contato.html">Contato</a></div>	
+			</nav>
+			<!-- fim navegacao -->												
+						
+			<section class="form">
+				<div class="form-title">
+					<h3>Entre em contato.</h3>
+				</div>
+				<div>
+					<form id="formulario">
+						<input type="text" placeholder="Nome" id="nome" required><br />
+						<input type="text" placeholder="E-mail" id="email" required><br />
+						<input type="tel" placeholder="Telefone" id="tel" required><br />
+						<textarea placeholder="Digite aqui sua mensagem..." name="message" id="message" cols="30" rows="10"></textarea><br />
+						<input type="submit" id="btn" accesskey="E" value="Enviar" onclick="enviado()">
+						<input type="reset" id="btn2" accesskey="P" value="Apagar formulário" />
+					</form>
+				</div>
+			</section>
+						  
+					
+								
+			</div><!-- fim /conteudo -->
+		</div><!-- fim /container -->
+		
+			<div id="container-rodape" style="clear: both;">
+				<div id="rodape">
+					&copy; Copyright 2021
+				</div>
+			</div>
+		
+	</body>
+
 </html>
