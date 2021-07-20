@@ -1,0 +1,63 @@
+.contact-container{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: rgb(245, 244, 244);
+}
+.txt-container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: rgb(182, 182, 250);    
+    color: rgb(7, 7, 7);
+    padding: 5px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+
+.contact1{
+    display: flex;
+    background: rgb(247, 240, 230);  
+    padding: 5px;  
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.contact2{
+    display: flex;
+    background: rgb(253, 250, 244);  
+    padding: 5px;  
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.contact3{
+    display: flex;
+    background:  rgb(247, 240, 230);  
+    padding: 5px;  
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.contact4{
+    display: flex;
+    background: rgb(250, 248, 246);  
+    padding: 5px;  
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.contact5{
+    display: flex;
+    background:  rgb(247, 240, 230);  
+    padding: 5px;  
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.description{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: justify;
+}
+.btn-linkedin{
+    margin-top: 10px;
+   
+}
+.btn-linkedin a{    
+    background: rgb(193, 193, 248);
+    color: rgb(17, 5, 80);
+    font-size: 0.7em;
+   
+}
